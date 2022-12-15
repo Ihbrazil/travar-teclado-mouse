@@ -1,0 +1,14 @@
+program PRJtravartecladoemouse;
+
+uses
+  Vcl.Forms,
+  UNTtravartecladoemouse in '..\..\..\..\Documents\Embarcadero\Studio\Projects\UNTtravartecladoemouse.pas' {FRMtravartecladoemouse};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFRMtravartecladoemouse, FRMtravartecladoemouse);
+  Application.Run;
+end.

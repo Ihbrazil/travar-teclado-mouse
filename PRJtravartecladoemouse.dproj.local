@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/06/22 18:23:23.000.308,=C:\Users\Windows 10 Education\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/22 18:37:28.000.473,C:\Users\Windows 10 Education\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Windows 10 Education\Documents\Embarcadero\Studio\Projects\UNTtravartecladoemouse.pas</Transaction>
+    <Transaction>2022/06/22 18:37:28.000.473,C:\Users\Windows 10 Education\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Windows 10 Education\Documents\Embarcadero\Studio\Projects\UNTtravartecladoemouse.dfm</Transaction>
+    <Transaction>2022/06/22 18:37:52.000.866,C:\Users\Windows 10 Education\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Windows 10 Education\Documents\Embarcadero\Studio\Projects\PRJtravartecladoemouse.dproj</Transaction>
+    <Transaction>2022/06/22 18:40:47.000.589,C:\Users\Windows 10 Education\Documents\Embarcadero\Studio\Projects\PRJtravartecladoemouse.dproj=C:\Users\Windows 10 Education\Dropbox\Embarcadero Delphi\Pesquisa IHC Windows\Travar Teclado e Mouse\PRJtravartecladoemouse.dproj</Transaction>
+    <Transaction>2022/06/22 18:41:16.000.381,C:\Users\Windows 10 Education\Documents\Embarcadero\Studio\Projects\UNTtravartecladoemouse.dfm=C:\Users\Windows 10 Education\Dropbox\Embarcadero Delphi\Pesquisa IHC Windows\Travar Teclado e Mouse\UNTtravartecladoemouse.dfm</Transaction>
+    <Transaction>2022/06/22 18:41:16.000.381,C:\Users\Windows 10 Education\Documents\Embarcadero\Studio\Projects\UNTtravartecladoemouse.pas=C:\Users\Windows 10 Education\Dropbox\Embarcadero Delphi\Pesquisa IHC Windows\Travar Teclado e Mouse\UNTtravartecladoemouse.pas</Transaction>
+  </Transactions>
+</BorlandProject>

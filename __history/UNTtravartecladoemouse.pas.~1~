@@ -1,0 +1,40 @@
+unit UNTtravartecladoemouse;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls;
+
+type
+  TFRMtravartecladoemouse = class(TForm)
+    BTNtravar: TButton;
+    TMRdestravar: TTimer;
+    procedure BTNtravarClick(Sender: TObject);
+    procedure TMRdestravarTimer(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+    procedure BlockInput(ABlockInput : boolean); stdcall; external 'USER32.DLL';
+var
+  FRMtravartecladoemouse: TFRMtravartecladoemouse;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFRMtravartecladoemouse.BTNtravarClick(Sender: TObject);
+begin
+  BlockInput(True);
+  TMRdestravar.Enabled:=True;
+end;
+
+procedure TFRMtravartecladoemouse.TMRdestravarTimer(Sender: TObject);
+begin
+  //BlockInput(false);
+  //TMRdestravar.Enabled:=false;
+end;
+
+end.
